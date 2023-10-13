@@ -11,6 +11,6 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/sidaroth/linting.git"
+		"url": "https://github.com/sidaroth/linting"
 	}
 }

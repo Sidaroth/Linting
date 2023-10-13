@@ -3,6 +3,11 @@
     "version": "1.0.0",
     "description": "Typescript ESLint config",
     "main": "index.js",
+    "repository": {
+        "url": "https://github.com/sidaroth/linting",
+        "directory": "packages/ts-eslint-config",
+        "type": "git"
+    },
     "publishConfig": {
         "registry": "https://npm.pkg.github.com/"
     },
@@ -19,6 +24,7 @@
     "dependencies": {
         "eslint": "^8.51.0"
     },
+
     "devDependencies": {
         "@typescript-eslint/eslint-plugin": "^6.7.5",
         "@typescript-eslint/parser": "^6.7.5",

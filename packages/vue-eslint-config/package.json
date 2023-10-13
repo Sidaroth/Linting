@@ -3,6 +3,11 @@
     "version": "1.0.0",
     "description": "Vue3 ESLint Config",
     "main": "index.js",
+    "repository": {
+        "url": "https://github.com/sidaroth/linting",
+        "directory": "packages/vue-eslint-config",
+        "type": "git"
+    },
     "publishConfig": {
         "registry": "https://npm.pkg.github.com/"
     },
