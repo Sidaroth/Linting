@@ -3,7 +3,7 @@ module.exports = {
         {
             files: ['*.js'],
             rules: {
-                // Vue files indent 2 spaces, .js and .ts uses 4 spaces.
+                // .js uses 4 spaces.
                 indent: ['error', 4, { "SwitchCase": 1 }],
             },
         },
