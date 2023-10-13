@@ -1,6 +1,6 @@
 {
     "name": "@sidaroth/eslint-config-typescript",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Typescript ESLint config",
     "main": "index.js",
     "repository": {
@@ -13,8 +13,8 @@
     },
     "author": "Christian Holt (sidaroth)",
     "peerDependencies": {
-        "@typescript-eslint/eslint-plugin": "^5.54.1",
-        "@typescript-eslint/parser": "^5.54.1",
+        "@typescript-eslint/eslint-plugin": "^5.54.1 || ^6.7.0",
+        "@typescript-eslint/parser": "^5.54.1 || ^6.7.0",
         "eslint": "^8.35.0",
         "eslint-config-airbnb-base": "^15.0.0",
         "eslint-config-airbnb-typescript": "^17.0.0",
