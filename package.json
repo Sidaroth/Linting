@@ -1,5 +1,16 @@
 {
+	"name": "@sidaroth/linting",
+	"version": "1.0.0",
+	"description": "ESLint Config Monorepo",
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/"
+	},
+	"author": "Christian Holt (sidaroth)",
 	"devDependencies": {
 		"lerna": "^7.3.1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/sidaroth/linting.git"
 	}
 }
