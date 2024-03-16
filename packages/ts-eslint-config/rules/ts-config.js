@@ -2,7 +2,7 @@ module.exports = {
     overrides: [
         {
             // Typescript files will be validated with the typescript-eslint parser. It does not handle .vue constructs well.
-            files: ['*.ts'],
+            files: ['*.ts', '*.mts', '*.cts', '*.tsx'],
             parserOptions: {
                 parser: '@typescript-eslint/parser',
                 project: './tsconfig.json',

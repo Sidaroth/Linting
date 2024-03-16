@@ -1,6 +1,6 @@
 {
     "name": "@sidaroth/eslint-config-typescript",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "description": "Typescript ESLint config",
     "main": "index.js",
     "repository": {
