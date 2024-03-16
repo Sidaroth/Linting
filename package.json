@@ -6,8 +6,11 @@
 		"registry": "https://npm.pkg.github.com/"
 	},
 	"author": "Christian Holt (sidaroth)",
+	"scripts": {
+		"release": "lerna publish from-package --yes"
+	},
 	"devDependencies": {
-		"lerna": "^7.3.1"
+		"lerna": "^8.1.2"
 	},
 	"workspaces": [
 		"packages/*"

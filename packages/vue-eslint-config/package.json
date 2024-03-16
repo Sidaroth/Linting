@@ -1,6 +1,6 @@
 {
     "name": "@sidaroth/eslint-config-vue",
-    "version": "1.0.1",
+    "version": "2.0.0",
     "description": "Vue3 ESLint Config",
     "main": "index.js",
     "repository": {
@@ -13,25 +13,25 @@
     },
     "author": "Christian Holt (sidaroth)",
     "peerDependencies": {
-        "@typescript-eslint/eslint-plugin": "^5.55.0 || ^6.7.0",
-        "@typescript-eslint/parser": "^5.55.0 || ^6.7.0",
-        "@vue/eslint-config-typescript": "^11.0.3 || ^12.0.0",
-        "eslint": "^8.29.0",
+        "@typescript-eslint/eslint-plugin": "^7.0.0",
+        "@typescript-eslint/parser": "^7.0.0",
+        "@vue/eslint-config-typescript": "^13.0.0",
+        "eslint": "^8.57.0",
         "eslint-config-airbnb-base": "^15.0.0",
-        "eslint-config-airbnb-typescript": "^16.1.1 || ^17.0.0",
-        "eslint-plugin-import": "^2.26.0",
-        "eslint-plugin-vue": "^9.8.0",
-        "typescript": "^4.9.5 || ^5.0.0"
+        "eslint-config-airbnb-typescript": "^18.0.0",
+        "eslint-plugin-import": "^2.29.0",
+        "eslint-plugin-vue": "^9.23.0",
+        "typescript": "^5.4.0"
     },
     "devDependencies": {
-        "@typescript-eslint/eslint-plugin": "^6.7.5",
-        "@typescript-eslint/parser": "^6.7.5",
-        "@vue/eslint-config-typescript": "^12.0.0",
-        "eslint": "^8.51.0",
-        "eslint-config-airbnb-base": "^15.0.0",
-        "eslint-config-airbnb-typescript": "^17.1.0",
-        "eslint-plugin-import": "^2.28.1",
-        "eslint-plugin-vue": "^9.17.0",
-        "typescript": "^5.2.2"
+        "@typescript-eslint/eslint-plugin": "7.2.0",
+        "@typescript-eslint/parser": "7.2.0",
+        "@vue/eslint-config-typescript": "13.0.0",
+        "eslint": "8.57.0",
+        "eslint-config-airbnb-base": "15.0.0",
+        "eslint-config-airbnb-typescript": "18.0.0",
+        "eslint-plugin-import": "2.29.1",
+        "eslint-plugin-vue": "9.23.0",
+        "typescript": "5.4.2"
     }
 }
