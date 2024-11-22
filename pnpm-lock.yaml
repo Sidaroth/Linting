@@ -44,9 +44,6 @@ importers:
       oxlint:
         specifier: ^0.13.0
         version: 0.13.0
-      typescript-eslint:
-        specifier: ^8.15.0
-        version: 8.15.0(eslint@9.15.0)(typescript@5.6.3)
     devDependencies:
       '@typescript-eslint/eslint-plugin':
         specifier: 8.15.0
@@ -63,6 +60,9 @@ importers:
       typescript:
         specifier: 5.6.3
         version: 5.6.3
+      typescript-eslint:
+        specifier: ^8.15.0
+        version: 8.15.0(eslint@9.15.0)(typescript@5.6.3)
 
   packages/vue-eslint-config:
     devDependencies:

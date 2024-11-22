@@ -17,9 +17,7 @@ const config = [
             // note you must disable the base rule as it can report incorrect errors (especially for .d.ts)
             "no-unused-vars": "off",
             '@typescript-eslint/no-unused-vars': ['error', { "argsIgnorePattern": "^_" }],
-            // note you must disable the base rule as it can report incorrect errors
-            "indent": "off",
-            "@typescript-eslint/indent": ["error", 4], // .ts uses 4 spaces.
+            indent: ['error', 4, { "SwitchCase": 1 }],
         }
     },
 ];
