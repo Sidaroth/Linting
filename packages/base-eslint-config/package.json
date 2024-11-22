@@ -1,8 +1,9 @@
 {
     "name": "@sidaroth/eslint-config-base",
-    "version": "1.0.5",
+    "version": "2.0.0",
     "description": "Base ESLint Config",
     "main": "index.js",
+    "type": "module",
     "repository": {
         "url": "https://github.com/sidaroth/linting",
         "directory": "packages/base-eslint-config",
@@ -13,15 +14,17 @@
     },
     "author": "Christian Holt (sidaroth)",
     "peerDependencies": {
-        "eslint": "^8.10.0",
-        "eslint-config-airbnb-base": "^15.0.0",
-        "eslint-plugin-import": "^2.25.4"
-    },
-    "dependencies": {
-        "eslint": "8.57.0"
+        "eslint": "^9.15.0",
+        "eslint-plugin-import": "^2.31.0",
+        "oxlint": "^0.13.0",
+        "@eslint/js": "^9.15.0",
+        "globals": "^15.12.0"
     },
     "devDependencies": {
-        "eslint-config-airbnb-base": "15.0.0",
-        "eslint-plugin-import": "2.30.0"
+        "eslint-plugin-import": "^2.31.0",
+        "oxlint": "^0.13.0",
+        "@eslint/js": "^9.15.0",
+        "eslint": "9.15.0",
+        "globals": "^15.12.0"
     }
 }
