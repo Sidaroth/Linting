@@ -1,6 +1,6 @@
 {
     "name": "@sidaroth/eslint-config-vue",
-    "version": "3.0.3",
+    "version": "3.0.4",
     "description": "Vue3 ESLint Config",
     "main": "index.js",
     "type": "module",

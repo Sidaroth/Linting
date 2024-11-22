@@ -1,6 +1,6 @@
 const config = [
     {
-        files: ['*.vue'],
+        files: ['**/*.vue'],
         rules: {
             // Disable the 'no-undef' rule, which is handled by TypeScript
             'no-undef': 'off',

@@ -5,7 +5,7 @@ const config = [
     ...tsLint.configs.recommended,
     {
         // Typescript files will be validated with the typescript-eslint parser. It does not handle .vue constructs well.
-        files: ['*.ts', '*.mts', '*.cts', '*.tsx'],
+        files: ['**/*.ts', '**/*.mts', '**/*.cts', '**/*.tsx'],
         languageOptions: {
             parserOptions: {
                 parser: '@typescript-eslint/parser',
