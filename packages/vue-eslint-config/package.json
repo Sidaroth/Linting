@@ -1,8 +1,9 @@
 {
     "name": "@sidaroth/eslint-config-vue",
-    "version": "3.0.2",
+    "version": "3.0.3",
     "description": "Vue3 ESLint Config",
     "main": "index.js",
+    "type": "module",
     "repository": {
         "url": "https://github.com/sidaroth/linting",
         "directory": "packages/vue-eslint-config",
