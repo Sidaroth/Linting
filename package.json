@@ -1,6 +1,6 @@
 {
 	"name": "@sidaroth/linting",
-	"version": "1.0.0",
+	"version": "0.0.0-monorepo",
 	"description": "ESLint Config Monorepo",
 	"publishConfig": {
 		"registry": "https://npm.pkg.github.com/"
@@ -10,7 +10,7 @@
 		"release": "lerna publish from-package --yes"
 	},
 	"devDependencies": {
-		"lerna": "^8.1.8"
+		"lerna": "^8.1.9"
 	},
 	"workspaces": [
 		"packages/*"
