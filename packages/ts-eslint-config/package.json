@@ -1,8 +1,9 @@
 {
     "name": "@sidaroth/eslint-config-typescript",
-    "version": "2.0.3",
+    "version": "3.0.0",
     "description": "Typescript ESLint config",
     "main": "index.js",
+    "type": "module",
     "repository": {
         "url": "https://github.com/sidaroth/linting",
         "directory": "packages/ts-eslint-config",
@@ -13,23 +14,25 @@
     },
     "author": "Christian Holt (sidaroth)",
     "peerDependencies": {
-        "@typescript-eslint/eslint-plugin": "^7.0.0",
-        "@typescript-eslint/parser": "^7.0.0",
-        "eslint": "^8.35.0",
-        "eslint-config-airbnb-base": "^15.0.0",
-        "eslint-config-airbnb-typescript": "^18.0.0",
+        "@typescript-eslint/eslint-plugin": "^8.0.0",
+        "@typescript-eslint/parser": "^8.0.0",
+        "eslint": "^9.10.0",
         "eslint-plugin-import": "^2.27.5",
+        "globals": "^15.12.0",
+        "oxlint": "^0.13.0",
         "typescript": "^5.0.0"
     },
     "dependencies": {
-        "eslint": "8.57.0"
+        "eslint": "9.15.0",
+        "globals": "^15.12.0",
+        "oxlint": "^0.13.0"
     },
     "devDependencies": {
-        "@typescript-eslint/eslint-plugin": "7.18.0",
-        "@typescript-eslint/parser": "7.18.0",
-        "eslint-config-airbnb-base": "15.0.0",
-        "eslint-config-airbnb-typescript": "18.0.0",
-        "eslint-plugin-import": "2.30.0",
-        "typescript": "5.5.4"
+        "typescript-eslint": "^8.15.0",
+        "@typescript-eslint/eslint-plugin": "8.15.0",
+        "@typescript-eslint/parser": "8.15.0",
+        "eslint-plugin-import": "2.31.0",
+        "eslint-plugin-oxlint": "^0.13.0",
+        "typescript": "5.6.3"
     }
 }
