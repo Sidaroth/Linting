@@ -1,7 +1,6 @@
 import jsLint from '@eslint/js';
-import oxlint from 'eslint-plugin-oxlint';
 
-export default [
+const config = [
     {
         rules: {
             ...jsLint.configs.recommended.rules,
@@ -31,5 +30,6 @@ export default [
             'no-param-reassign': ['warn', { props: false }], // Due to object composition we need to be able to adjust props.
         },
     },
-    oxlint.configs['flat/recommended'], // oxlint should be the last one
 ];
+
+export default config;

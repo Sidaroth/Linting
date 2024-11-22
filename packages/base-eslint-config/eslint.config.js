@@ -1,8 +1,9 @@
 import baseConfig from './rules/base-config.js';
 import jsConfig from './rules/js-config.js';
 import globals from 'globals';
+import oxlint from 'eslint-plugin-oxlint';
 
-export default [
+const config = [
     {
         languageOptions: {
             ecmaVersion: 'latest',
@@ -13,4 +14,7 @@ export default [
     },
     ...baseConfig,
     ...jsConfig,
+    oxlint.configs['flat/recommended'], // oxlint should be the last one
 ];
+
+export default config;
